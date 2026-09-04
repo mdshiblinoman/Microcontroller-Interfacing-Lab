@@ -40,7 +40,7 @@ int main(void)
     I2C1_Init();
     while (1)
     {
-        I2C1_Send(0x12, 6, "Shakil");
+        I2C1_Send(0x12, 5, "Noman");
         Delay(50);
     }
 }
